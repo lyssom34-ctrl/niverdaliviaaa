@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFF0F5">
+  <title>Happy B-Day Best Friends</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px 12px 30px;
+      min-height: 100vh;
+      width: 100%;
+      background-color: #FFF0F5;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      color: #d943a3;
+      text-align: center;
+      font-size: clamp(20px, 5vw, 28px);
+      line-height: 1.35;
+      font-family: 'Playfair Display', serif;
+      overflow-wrap: anywhere;
+    }
+
+    h2 {
+      color: #ce62b8;
+      text-align: center;
+      font-size: clamp(14px, 3.8vw, 17px);
+      line-height: 1.65;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      max-width: 650px;
+      margin: 18px auto;
+    }
+
+    p {
+      color: #C2185B;
+      font-size: 14px;
+    }
+
+    .audioo {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 24px auto;
+      padding: 10px;
+      border: 2px solid white;
+      border-radius: 100px;
+    }
+
+    audio {
+      display: block;
+      width: min(100%, 340px);
+      max-width: 100%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      gap: 12px;
+      width: 100%;
+      max-width: 430px;
+      margin: 20px auto;
+    }
+
+    .data,
+    .foto {
+      flex: 1 1 0;
+      min-width: 0;
+      max-width: 200px;
+      height: 220px;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    .data {
+      background-color: #FADADD;
+      text-align: center;
+      padding: 12px 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .data h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 8vw, 42px);
+    }
+
+    .data h2 {
+      margin: 4px 0;
+      font-size: clamp(13px, 3.5vw, 17px);
+    }
+
+    .data p {
+      margin: 8px 0 0;
+    }
+
+    .foto img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 360px) {
+      body {
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .container {
+        gap: 8px;
+      }
+
+      .data,
+      .foto {
+        height: 190px;
+      }
+
+      .data {
+        padding: 8px 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>𖹭 🎀 FELIZ ANIVERSÁRIO LIVINHA 🎀 𖹭</h1>
+
+  <h2>
+    Nesse dia tão especial, eu não podia deixar passar
+    sem fazer algo totalmente Gabriela. O que mais Gabriela
+    do que Curso de Informática e HTML? Sim princesa, fiz esse
+    site especialmente pra você!<br>
+    Fique com uma "pequena" mensagem de voz da sua melhor amiga.<br><br>
+    ⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹
+  </h2>
+
+  <div class="audioo">
+    <audio controls preload="metadata">
+      <source src="audio.mp3" type="audio/mpeg">
+      Seu navegador não conseguiu carregar o áudio.
+    </audio>
+  </div>
+
+  <div class="container">
+    <div class="data">
+      <h1>09</h1>
+      <h2>de Novembro</h2>
+      <p>♡ Um dia especial ♡</p>
+    </div>
+
+    <div class="foto">
+      <img src="foto.jpg" alt="Nossa foto">
+    </div>
+  </div>
+</body>
+</html>
